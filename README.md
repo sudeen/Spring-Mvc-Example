@@ -1,8 +1,8 @@
 # Spring-Mvc-Example
-Spring Mvc Template. Hello 
+##Spring Mvc Template for Hello World. 
 
 Right Click on main directory and create a directory named webapp.
-Under the webapp create another directory named **_WEB-INF_**.
+Under the `webapp` create another directory named **_WEB-INF_**.
 
 Right click on your Project folder name and click on add framework support 
 and then tick the web and then ok button. 
@@ -29,4 +29,10 @@ So, I copied this `dispatcher-servlet.xml` file from another source.
 Lastly, all you need to do is setup a **_Tomcat Server_**.
 While configuring tomcat server you will see the fix icon 
 just click on that icon and intellij will automatically help you to make the `WAR` file.
+
+You must face an error in the first run so to fix this go to the project structure
+and under the **_artifacts_** tab you will see the name **_Available Elements_**
+and under that tab you will see some files probably 4 or 5 files. Select all those
+right click and click add to lib. 
+Restart the server and you will get the desired output.
    
